@@ -1,0 +1,2 @@
+# mining
+Personal proyect mining
