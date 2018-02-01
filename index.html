@@ -18,7 +18,7 @@
           baseUrl = "https://widgets.cryptocompare.com/";
           var scripts = document.getElementsByTagName("script");
           var embedder = scripts[ scripts.length - 1 ];
-          var cccTheme = {"General":{"background":(255, 255, 255, 0.8),"priceText":"white","enableMarquee":true},"Currency":{"color":"white"}};
+          var cccTheme = {"General":{"background":(255, 255, 255, 0.9),"priceText":"white","enableMarquee":true},"Currency":{"color":"white"}};
           (function (){
             var appName = encodeURIComponent(window.location.hostname);
             if(appName==""){appName="local";}
@@ -40,20 +40,21 @@
       <!-- Menú de navegación -->
   			<nav id="menu">
   				<ul class="links">
-  					<li><a href="index.html">Home</a></li>
-  					<li><a href="index.html">Segunda</a></li>
+  					<li><a href="index.html">Inicio</a></li>
+  					<li><a href="index.html">Noticias</a></li>
   					<li><a href="index.html">Tercera</a></li>
   				</ul>
   			</nav>
 
   		<!-- Banner -->
+
   			<section id="banner">
   				<div class="inner">
   					<h1>CriptoMX</h1>
   					<p>Una manera inteligente<br />
   					de invertir</p>
   				</div>
-  				<video autoplay loop muted playsinline src="images/banner.mp4"></video>
+  				<video autoplay loop muted playsinline autoplay src="images/banner.mp4"></video>
   			</section>
 
         <!-- Highlights -->
@@ -79,8 +80,8 @@
     								<p>Actualmente existen miles de monedas virtuales en el mercado, más sin embargo, es importante señanalar que cada moneda virtual cumple con una función determinada.</p>
     							</div>
     						</section>
-                
-    						<section>
+
+    						<!-- <section>
     							<div class="content">
     								<header>
     									<a href="#" class="icon fa-paper-plane-o"><span class="label"></span></a>
@@ -124,18 +125,80 @@
     								</header>
     								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
     							</div>
-    						</section>
+    						</section> -->
     					</div>
     				</div>
     			</section>
 
     		<!-- CTA -->
-    			<section id="cta" class="wrapper">
+    			<!-- <section id="cta" class="wrapper">
     				<div class="inner">
     					<h2>Curabitur ullamcorper ultricies</h2>
     					<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida.</p>
     				</div>
-    			</section>
+    			</section> -->
+          <!-- <section class="wrapper">
+    				<div class="inner">
+    					<header class="special">
+    						<h2>Conoce al equipo</h2>
+    						<p>Somos un equipo....</p>
+    					</header>
+    					<div class="testimonials">
+    						<section>
+    							<div class="content">
+    								<blockquote>
+    									<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+    								</blockquote>
+    								<div class="author">
+    									<div class="image">
+    										<img src="images/pic01.jpg" alt="" />
+    									</div>
+    									<p class="credit">- <strong>Jane Doe</strong> <span>CEO - ABC Inc.</span></p>
+    								</div>
+    							</div>
+    						</section>
+                <section>
+    							<div class="content">
+    								<blockquote>
+    									<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+    								</blockquote>
+    								<div class="author">
+    									<div class="image">
+    										<img src="images/pic01.jpg" alt="" />
+    									</div>
+    									<p class="credit">- <strong>Jane Doe</strong> <span>CEO - ABC Inc.</span></p>
+    								</div>
+    							</div>
+    						</section>
+    						<section>
+    							<div class="content">
+    								<blockquote>
+    									<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+    								</blockquote>
+    								<div class="author">
+    									<div class="image">
+    										<img src="images/pic03.jpg" alt="" />
+    									</div>
+    									<p class="credit">- <strong>John Doe</strong> <span>CEO - ABC Inc.</span></p>
+    								</div>
+    							</div>
+    						</section>
+    						<section>
+    							<div class="content">
+    								<blockquote>
+    									<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+    								</blockquote>
+    								<div class="author">
+    									<div class="image">
+    										<img src="images/pic02.jpg" alt="" />
+    									</div>
+    									<p class="credit">- <strong>Janet Smith</strong> <span>CEO - ABC Inc.</span></p>
+    								</div>
+    							</div>
+    						</section>
+    					</div>
+    				</div>
+    			</section> -->
 
 
 
@@ -151,19 +214,19 @@
     							<p>Empresa creada por estudiantes emprendedores que buscan que el desarrollo tecnológico pueda ser manipulable por la mayoria de la gente.</p>
     						</section>
     						<section>
-    							<h4>Conoce al equipo de desarrollo</h4>
+    							<h4>Nuestros facebooks</h4>
     							<ul class="alt">
-    								<li><a href="#">Luis Fernando Chávez Jiménez.</a></li>
-    								<li><a href="#">Ernesto del Toro Sánchez</a></li>
-    								<li><a href="#">Sara Grimaldo Anaya</a></li>
-    								<li><a href="#">Guillermo Moreno Rivera</a></li>
+    								<li><a href="https://www.facebook.com/fernandochajim">Luis Fernando Chávez Jiménez.</a></li>
+    								<li><a href="https://www.facebook.com/Ernesto-Del-Toro-Fotograf%C3%ADa-305582383249262/">Ernesto del Toro Sánchez</a></li>
+    								<li><a href="https://www.facebook.com/sarah.grimaldo04">Sara Grimaldo Anaya</a></li>
+    								<li><a href="https://www.facebook.com/tuerkam">Guillermo Moreno Rivera</a></li>
     							</ul>
     						</section>
     						<section>
     							<h4>nuestras redes sociales</h4>
     							<ul class="plain">
     								<li><a href="#"><i class="icon fa-twitter">&nbsp;</i>Twitter</a></li>
-    								<li><a href="#"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
+    								<li><a href="https://www.facebook.com/Cripto-MX-282741722254667/"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
     								<li><a href="#"><i class="icon fa-instagram">&nbsp;</i>Instagram</a></li>
     								<li><a href="#"><i class="icon fa-github">&nbsp;</i>Github</a></li>
     							</ul>
